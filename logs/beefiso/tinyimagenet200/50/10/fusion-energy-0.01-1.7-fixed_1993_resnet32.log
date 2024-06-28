@@ -1,0 +1,27 @@
+2024-06-20 11:01:27,618 [trainer.py] => config: ./configs/beef/tiny-imagenet-50-10.json
+2024-06-20 11:01:27,618 [trainer.py] => prefix: fusion-energy-0.01-1.7-fixed
+2024-06-20 11:01:27,618 [trainer.py] => dataset: tinyimagenet200
+2024-06-20 11:01:27,619 [trainer.py] => memory_size: 2000
+2024-06-20 11:01:27,619 [trainer.py] => memory_per_class: 20
+2024-06-20 11:01:27,619 [trainer.py] => fixed_memory: True
+2024-06-20 11:01:27,619 [trainer.py] => shuffle: True
+2024-06-20 11:01:27,619 [trainer.py] => init_cls: 50
+2024-06-20 11:01:27,619 [trainer.py] => increment: 10
+2024-06-20 11:01:27,619 [trainer.py] => model_name: beefiso
+2024-06-20 11:01:27,620 [trainer.py] => convnet_type: resnet32
+2024-06-20 11:01:27,620 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-20 11:01:27,620 [trainer.py] => seed: 1993
+2024-06-20 11:01:27,620 [trainer.py] => logits_alignment: 1.7
+2024-06-20 11:01:27,620 [trainer.py] => energy_weight: 0.01
+2024-06-20 11:01:27,620 [trainer.py] => is_compress: False
+2024-06-20 11:01:27,620 [trainer.py] => reduce_batch_size: False
+2024-06-20 11:01:27,621 [trainer.py] => init_epochs: 200
+2024-06-20 11:01:27,621 [trainer.py] => init_lr: 0.1
+2024-06-20 11:01:27,621 [trainer.py] => init_weight_decay: 0.0005
+2024-06-20 11:01:27,621 [trainer.py] => expansion_epochs: 170
+2024-06-20 11:01:27,621 [trainer.py] => fusion_epochs: 60
+2024-06-20 11:01:27,621 [trainer.py] => lr: 0.1
+2024-06-20 11:01:27,621 [trainer.py] => batch_size: 128
+2024-06-20 11:01:27,621 [trainer.py] => weight_decay: 0.0005
+2024-06-20 11:01:27,622 [trainer.py] => num_workers: 8
+2024-06-20 11:01:27,622 [trainer.py] => T: 2
