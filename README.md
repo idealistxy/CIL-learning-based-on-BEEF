@@ -28,6 +28,6 @@ The following packages are required to run the scripts:
   ```
 
   ## notices
-  If you want to run the tiny-imagenet, please unzip our zip document, we did some basic operation which cause dataset different from what you can get from the webside.
+  If you want to run the tiny-imagenet or imagenet-100,please put your dataset path in utils/data.py, and be aware of the dataset you download on the webside（you may have to do some modify espeically the tiny one）
   
-  If you want to modify the Hyperparameters, you can check the  setting file in ICLR23-BEEF-master\configs\beef\*.json
+  If you want to modify the Hyperparameters, you can check the setting file in ICLR23-BEEF-master\configs\beef\*.json
